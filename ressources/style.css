@@ -1,0 +1,25 @@
+.grandTableau {
+    width: fit-content;
+    border: solid;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+.case, .hidden {
+    display: flex;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-style: none dotted dotted none;
+    justify-content: center;
+    align-items: center;
+}
+.hidden {
+    color: rgba(240, 248, 255, 0);
+    border-color: black;
+}
+.hidden:hover {
+    color: black;
+}
