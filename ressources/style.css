@@ -2,13 +2,22 @@
 
 .grandTableau {
     width: fit-content;
-    border: solid;
+    border: 10px solid;
     background-color: rgb(201, 201, 201);
     display: flex;
     align-items: center;
+    border-left-color: rgb(201, 201, 201);
+    border-top-color: rgb(201, 201, 201);
+    border-bottom-color: rgb(201, 201, 201);
+    border-right-color: white;
 }
 .petitTableau {
     width: fit-content;
+    border: 10px solid;
+    border-left-color: gray;
+    border-top-color: gray;
+    border-right-color: white;
+    border-bottom-color: white;
 }
 .row {
     display: flex;
