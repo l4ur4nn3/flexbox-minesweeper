@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 .grandTableau {
     width: fit-content;
     border: solid;
+    background-color: rgb(201, 201, 201);
+}
+.petitTableau {
+    width: fit-content;
 }
 .row {
     display: flex;
@@ -12,14 +18,39 @@
     width: 50px;
     height: 50px;
     text-align: center;
-    border-style: none dotted dotted none;
+    outline: 1px dashed black;
+    border: 2px dashed transparent;
     justify-content: center;
     align-items: center;
 }
 .hidden {
-    color: rgba(240, 248, 255, 0);
-    border-color: black;
+    color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    border-width: 2px;
+    border-color: white black black white;
 }
 .hidden:hover {
     color: black;
+    border: 2px dashed transparent;
+}
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+}
+img {
+    width: 50px
+}
+i {
+    font-style: normal;
+}
+.one {
+    color: blue;
+}
+.two {
+    color: green;
+}
+.three {
+    color: red;
 }
